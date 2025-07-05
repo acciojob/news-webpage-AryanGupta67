@@ -20,8 +20,14 @@ body {
   border-radius: 8px;
 }
 
-.latest-news-section h2 {
+.latest-news-section h2,
+.latest-news-section h3 {
   color: #011e29;
+}
+
+.latest-news-section p {
+  color: #333;
+  margin-bottom: 10px;
 }
 
 .latest-news-section ul {
@@ -49,5 +55,6 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
 
 
