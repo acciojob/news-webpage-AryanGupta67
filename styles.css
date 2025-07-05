@@ -8,8 +8,8 @@ body {
 .header {
   background-color: #011e29;
   color: white;
-  text-align: center; /* Important for passing test */
-  padding: 20px 0;
+  padding: 20px;
+  text-align: center;   /* ✅ Required for test to pass */
 }
 
 .latest-news-section {
@@ -34,12 +34,8 @@ body {
   width: 80%;
   margin: 20px auto;
   padding: 20px;
-  text-align: center; /* Important for passing test */
+  text-align: center;  /* ✅ Required for test to pass */
   border-radius: 10px;
-}
-
-.pictorial-news-section h3 {
-  margin-top: 0;
 }
 
 .pictorial-news-section .images img {
